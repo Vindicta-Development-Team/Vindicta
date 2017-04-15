@@ -138,4 +138,12 @@
     Caption = 'Einheiten'
     TabOrder = 7
   end
+  object Button1: TButton
+    Left = 408
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = 'TEST'
+    TabOrder = 8
+  end
 end
