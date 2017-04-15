@@ -17,6 +17,7 @@ type
     p_Quickmenü: TPanel;
     p_zurück_zum_Spiel: TPanel;
     p_zurück_zum_Hauptmenü: TPanel;
+    b_Einheiten: TButton;
     procedure p_next_turnClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
