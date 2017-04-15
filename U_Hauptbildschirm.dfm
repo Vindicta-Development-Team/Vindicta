@@ -130,4 +130,12 @@
       TabOrder = 1
     end
   end
+  object b_Einheiten: TButton
+    Left = 63
+    Top = 32
+    Width = 57
+    Height = 57
+    Caption = 'Einheiten'
+    TabOrder = 7
+  end
 end
