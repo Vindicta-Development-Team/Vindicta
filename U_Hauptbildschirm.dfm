@@ -16,21 +16,6 @@
   OnKeyDown = FormKeyDown
   PixelsPerInch = 96
   TextHeight = 13
-  object p_next_turn: TPanel
-    Left = 600
-    Top = 426
-    Width = 131
-    Height = 41
-    Caption = 'next turn'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -21
-    Font.Name = 'Times New Roman'
-    Font.Style = [fsBold, fsItalic]
-    ParentFont = False
-    TabOrder = 0
-    OnClick = p_next_turnClick
-  end
   object p_Essen_Symbol: TPanel
     Left = 0
     Top = 0
@@ -43,7 +28,7 @@
     Font.Name = 'Times New Roman'
     Font.Style = [fsBold, fsItalic]
     ParentFont = False
-    TabOrder = 1
+    TabOrder = 0
   end
   object p_Essen_Gesamtanzahl: TPanel
     Left = 24
@@ -56,7 +41,7 @@
     Font.Name = 'Times New Roman'
     Font.Style = [fsBold, fsItalic]
     ParentFont = False
-    TabOrder = 2
+    TabOrder = 1
   end
   object p_Jahreszeiten_Anzeige: TPanel
     Left = 648
@@ -69,7 +54,7 @@
     Font.Name = 'Times New Roman'
     Font.Style = [fsBold, fsItalic]
     ParentFont = False
-    TabOrder = 3
+    TabOrder = 2
   end
   object lb_Jahreszeiten_Liste: TListBox
     Left = 650
@@ -83,7 +68,7 @@
       'Herbst'
       'Winter')
     ScrollWidth = 2
-    TabOrder = 4
+    TabOrder = 3
     Visible = False
   end
   object b_Baumenü: TButton
@@ -92,14 +77,14 @@
     Width = 57
     Height = 57
     Caption = 'Baumen'#252
-    TabOrder = 5
+    TabOrder = 4
   end
   object p_Quickmenü: TPanel
     Left = 272
     Top = 168
     Width = 289
     Height = 273
-    TabOrder = 6
+    TabOrder = 5
     Visible = False
     object p_zurück_zum_Spiel: TPanel
       Left = 0
@@ -114,6 +99,7 @@
       Font.Style = [fsBold, fsItalic]
       ParentFont = False
       TabOrder = 0
+      OnClick = p_zurück_zum_SpielClick
     end
     object p_zurück_zum_Hauptmenü: TPanel
       Left = 0
@@ -128,6 +114,7 @@
       Font.Style = [fsBold, fsItalic]
       ParentFont = False
       TabOrder = 1
+      OnClick = p_zurück_zum_HauptmenüClick
     end
   end
   object b_Einheiten: TButton
@@ -136,7 +123,7 @@
     Width = 57
     Height = 57
     Caption = 'Einheiten'
-    TabOrder = 7
+    TabOrder = 6
   end
   object Button1: TButton
     Left = 408
@@ -144,6 +131,11 @@
     Width = 75
     Height = 25
     Caption = 'TEST'
-    TabOrder = 8
+    TabOrder = 7
+  end
+  object t_next_month: TTimer
+    OnTimer = t_next_monthTimer
+    Left = 672
+    Top = 296
   end
 end
