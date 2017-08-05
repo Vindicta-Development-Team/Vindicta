@@ -97,4 +97,12 @@
     TabOrder = 5
     Visible = False
   end
+  object TestButton: TButton
+    Left = 536
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = 'TestButton'
+    TabOrder = 6
+  end
 end

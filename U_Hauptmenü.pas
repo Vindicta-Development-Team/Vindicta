@@ -15,6 +15,7 @@ type
     p_Options: TPanel;
     p_Singelplayer: TPanel;
     e_cheat_menü: TEdit;
+    TestButton: TButton;
     procedure p_SingelplayerClick(Sender: TObject);
     procedure p_zurück_zu_WindowsClick(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
