@@ -90,11 +90,12 @@
   end
   object e_cheat_menü: TEdit
     Left = 8
-    Top = 440
-    Width = 669
+    Top = 488
+    Width = 657
     Height = 21
-    PasswordChar = 'r'
     TabOrder = 5
+    Text = 'cheat_men'#252'_Eingabe'
     Visible = False
+    OnEnter = e_cheat_menüEnter
   end
 end

@@ -1,17 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+<<<<<<< HEAD
     <Transaction>1899/12/30 00:00:00.000.010,C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Hauptmenü.pas=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
     <Transaction>1899/12/30 00:00:00.000.799,C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Hauptbildschirm.dfm=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit4.dfm</Transaction>
     <Transaction>1899/12/30 00:00:00.000.125,C:\Users\Sever\Documents\Delfi_10\Vindicta\P_Hauptmenü.dproj=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Project1.dproj</Transaction>
     <Transaction>1899/12/30 00:00:00.000.957,=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit3.pas</Transaction>
     <Transaction>1899/12/30 00:00:00.000.799,C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Hauptbildschirm.pas=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit4.pas</Transaction>
     <Transaction>1899/12/30 00:00:00.000.407,=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit2.pas</Transaction>
+=======
+    <Transaction>1899/12/30 00:00:00.000.574,C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit3.pas=C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Spieleditor.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.751,C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit2.dfm=C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Singelplayer.dfm</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.957,=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit3.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.984,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.799,C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit4.dfm=C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Hauptbildschirm.dfm</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.407,=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit2.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.799,C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit4.pas=C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Hauptbildschirm.pas</Transaction>
+>>>>>>> master
     <Transaction>1899/12/30 00:00:00.000.712,=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit4.pas</Transaction>
     <Transaction>1899/12/30 00:00:00.000.010,C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Hauptmenü.dfm=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.dfm</Transaction>
     <Transaction>1899/12/30 00:00:00.000.751,C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Singelplayer.dfm=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit2.dfm</Transaction>
     <Transaction>1899/12/30 00:00:00.000.574,C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Spieleditor.dfm=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit3.dfm</Transaction>
     <Transaction>1899/12/30 00:00:00.000.468,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>1899/12/30 00:00:00.000.760,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
     <Transaction>1899/12/30 00:00:00.000.796,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
     <Transaction>1899/12/30 00:00:00.000.751,C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Singelplayer.pas=C:\Users\Sever\Documents\Delfi_10\Vindicta\Unit2.pas</Transaction>
@@ -21,5 +32,17 @@
     <Transaction>1899/12/30 00:00:00.000.698,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
     <Transaction>1899/12/30 00:00:00.000.337,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
     <Transaction>1899/12/30 00:00:00.000.984,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+=======
+    <Transaction>1899/12/30 00:00:00.000.125,C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Project1.dproj=C:\Users\Sever\Documents\Delfi_10\Vindicta\P_Hauptmenü.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.010,C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas=C:\Users\Sever\Documents\Delfi_10\Vindicta\U_Hauptmenü.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.760,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.698,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.337,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.549,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.098,=C:\Users\Sever\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>2017/08/05 12:59:54.996,=C:\Users\chris\Documents\Informatik\Vindicta\Vindicta\Unit5.pas</Transaction>
+    <Transaction>2017/08/05 13:05:10.310,C:\Users\chris\Documents\Informatik\Vindicta\Vindicta\U_Essenseditor.pas=C:\Users\chris\Documents\Informatik\Vindicta\Vindicta\Unit5.pas</Transaction>
+    <Transaction>2017/08/05 13:05:10.310,C:\Users\chris\Documents\Informatik\Vindicta\Vindicta\U_Essenseditor.dfm=C:\Users\chris\Documents\Informatik\Vindicta\Vindicta\Unit5.dfm</Transaction>
+>>>>>>> master
   </Transactions>
 </BorlandProject>

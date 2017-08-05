@@ -2,8 +2,8 @@
   Left = 0
   Top = 0
   Caption = 'Form4'
-  ClientHeight = 515
-  ClientWidth = 779
+  ClientHeight = 620
+  ClientWidth = 934
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -12,6 +12,7 @@
   Font.Style = []
   KeyPreview = True
   OldCreateOrder = False
+  Position = poDesigned
   OnCreate = FormCreate
   OnKeyDown = FormKeyDown
   PixelsPerInch = 96
@@ -44,7 +45,7 @@
     TabOrder = 1
   end
   object p_Jahreszeiten_Anzeige: TPanel
-    Left = 648
+    Left = 752
     Top = 0
     Width = 129
     Height = 23
@@ -57,7 +58,7 @@
     TabOrder = 2
   end
   object lb_Jahreszeiten_Liste: TListBox
-    Left = 650
+    Left = 760
     Top = 29
     Width = 121
     Height = 60
@@ -80,8 +81,8 @@
     TabOrder = 4
   end
   object p_Quickmenü: TPanel
-    Left = 272
-    Top = 168
+    Left = 304
+    Top = 208
     Width = 289
     Height = 273
     TabOrder = 5
@@ -126,16 +127,31 @@
     TabOrder = 6
   end
   object Button1: TButton
-    Left = 408
-    Top = 88
+    Left = 400
+    Top = 8
     Width = 75
     Height = 25
     Caption = 'TEST'
     TabOrder = 7
   end
+<<<<<<< HEAD
   object t_next_month: TTimer
     OnTimer = t_next_monthTimer
     Left = 672
     Top = 296
+=======
+  object Panel1: TPanel
+    Left = 8
+    Top = 208
+    Width = 281
+    Height = 404
+    Caption = 'Panel1'
+    TabOrder = 8
+>>>>>>> master
+  end
+  object t_next_turn: TTimer
+    OnTimer = t_next_turnTimer
+    Left = 808
+    Top = 424
   end
 end

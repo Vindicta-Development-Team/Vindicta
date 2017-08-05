@@ -4,12 +4,13 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
 
 type
   TForm3 = class(TForm)
     p_zurück: TPanel;
     p_Starten: TPanel;
+    e_spielername: TEdit;
     procedure p_StartenClick(Sender: TObject);
     procedure p_zurückClick(Sender: TObject);
   private

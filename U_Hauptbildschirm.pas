@@ -18,12 +18,22 @@ type
     p_zurück_zum_Hauptmenü: TPanel;
     b_Einheiten: TButton;
     Button1: TButton;
+<<<<<<< HEAD
     t_next_month: TTimer;
     procedure FormCreate(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure p_zurück_zum_SpielClick(Sender: TObject);
     procedure p_zurück_zum_HauptmenüClick(Sender: TObject);
     procedure t_next_monthTimer(Sender: TObject);
+=======
+    t_next_turn: TTimer;
+    Panel1: TPanel;
+    procedure FormCreate(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure p_zurück_zum_SpielClick(Sender: TObject);
+    procedure t_next_turnTimer(Sender: TObject);
+
+>>>>>>> master
 
   private
     { Private declarations }
@@ -58,6 +68,7 @@ begin
             end;
 end;
 
+<<<<<<< HEAD
 procedure TForm4.p_zurück_zum_HauptmenüClick(Sender: TObject);
 begin
           U_Hauptbildschirm.Form4.Hide;
@@ -70,6 +81,15 @@ begin
 end;
 
 procedure TForm4.t_next_monthTimer(Sender: TObject);
+=======
+procedure TForm4.p_zurück_zum_SpielClick(Sender: TObject);
+begin
+          if p_quickmenü.Visible = true
+          then p_quickmenü.Visible := false
+end;
+
+procedure TForm4.t_next_turnTimer(Sender: TObject);
+>>>>>>> master
           var lepos, pos : byte;
 begin
           lepos := lb_Jahreszeiten_Liste.Count -1;
