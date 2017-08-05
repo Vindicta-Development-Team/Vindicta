@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, U_Singelplayer,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, U_Singelplayer, U_Essenseditor,
   Vcl.StdCtrls;
 
 type
@@ -18,6 +18,8 @@ type
     procedure p_SingelplayerClick(Sender: TObject);
     procedure p_zurück_zu_WindowsClick(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure e_cheat_menüEnter(Sender: TObject);
+
   private
     { Private declarations }
   public
@@ -31,6 +33,16 @@ implementation
 
 {$R *.dfm}
 
+
+
+procedure TForm1.e_cheat_menüEnter(Sender: TObject);
+begin
+          if e_cheat_menü.Text = 'XY' then
+          begin
+          U_Essenseditor.form5.Show;
+          U_Hauptmenü.Form1.Hide;
+          end;
+end;
 
 procedure TForm1.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
