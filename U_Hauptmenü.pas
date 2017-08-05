@@ -18,7 +18,14 @@ type
     procedure p_SingelplayerClick(Sender: TObject);
     procedure p_zurück_zu_WindowsClick(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
-    procedure e_cheat_menüEnter(Sender: TObject);
+    procedure e_cheat_menüKeyPress(Sender: TObject; var Key: Char);
+
+
+
+
+
+
+
 
   private
     { Private declarations }
@@ -35,12 +42,18 @@ implementation
 
 
 
-procedure TForm1.e_cheat_menüEnter(Sender: TObject);
+
+procedure TForm1.e_cheat_menüKeyPress(Sender: TObject; var Key: Char);
+var       Essenseditor_Aufruf : string;
 begin
-          if e_cheat_menü.Text = 'XY' then
+          Essenseditor_Aufruf := 'XY';
+          if e_cheat_menü.Text = Essenseditor_Aufruf then
+          begin
+          if key = #13 then
           begin
           U_Essenseditor.form5.Show;
           U_Hauptmenü.Form1.Hide;
+          end
           end;
 end;
 

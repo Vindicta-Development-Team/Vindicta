@@ -96,6 +96,6 @@
     TabOrder = 5
     Text = 'cheat_men'#252'_Eingabe'
     Visible = False
-    OnEnter = e_cheat_menüEnter
+    OnKeyPress = e_cheat_menüKeyPress
   end
 end
