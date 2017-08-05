@@ -61,7 +61,7 @@
   end
   object p_Options: TPanel
     Left = 240
-    Top = 264
+    Top = 273
     Width = 185
     Height = 41
     Caption = 'Options'
