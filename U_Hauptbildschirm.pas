@@ -8,7 +8,6 @@ uses
 
 type
   TForm4 = class(TForm)
-    p_next_turn: TPanel;
     p_Essen_Symbol: TPanel;
     p_Essen_Gesamtanzahl: TPanel;
     p_Jahreszeiten_Anzeige: TPanel;
@@ -19,9 +18,13 @@ type
     p_zurück_zum_Hauptmenü: TPanel;
     b_Einheiten: TButton;
     Button1: TButton;
-    procedure p_next_turnClick(Sender: TObject);
+    t_next_turn: TTimer;
+    Panel1: TPanel;
     procedure FormCreate(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure p_zurück_zum_SpielClick(Sender: TObject);
+    procedure t_next_turnTimer(Sender: TObject);
+
 
   private
     { Private declarations }
@@ -54,7 +57,13 @@ begin
             end;
 end;
 
-procedure TForm4.p_next_turnClick(Sender: TObject);
+procedure TForm4.p_zurück_zum_SpielClick(Sender: TObject);
+begin
+          if p_quickmenü.Visible = true
+          then p_quickmenü.Visible := false
+end;
+
+procedure TForm4.t_next_turnTimer(Sender: TObject);
           var lepos, pos : byte;
 begin
           lepos := lb_Jahreszeiten_Liste.Count -1;
@@ -70,4 +79,5 @@ begin
           lb_Jahreszeiten_Liste.itemindex := pos;
           p_Jahreszeiten_Anzeige.Caption := lb_Jahreszeiten_Liste.Items.Strings [pos]
 end;
+
 end.

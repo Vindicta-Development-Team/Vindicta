@@ -43,4 +43,12 @@
     TabOrder = 1
     OnClick = p_StartenClick
   end
+  object e_spielername: TEdit
+    Left = 8
+    Top = 8
+    Width = 241
+    Height = 33
+    TabOrder = 2
+    Text = 'Spielername'
+  end
 end
